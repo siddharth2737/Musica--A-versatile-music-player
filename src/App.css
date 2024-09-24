@@ -1,0 +1,154 @@
+body,html {
+  background-image: linear-gradient(rgb(113, 210, 248), rgb(160, 91, 240));
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  padding-bottom: 4rem; /* Space for the fixed progress bar */
+}
+
+.navbar-brand {
+  background: linear-gradient(rgb(4, 82, 24), rgb(217, 230, 214));
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.nav-link{
+  transition: transform 0.3s;
+  background: linear-gradient(rgb(215, 224, 217), rgb(217, 230, 214));
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #810707;
+  font-size: 25px;
+}
+.card {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(197, 173, 236));
+  border-radius: 40px;
+  padding: 10px;
+  background-color: rgb(112, 112, 112);
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-family: "Cabin", sans-serif;
+  box-shadow: 0 0 20px #ac8dff;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+#trending {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 3rem; /* Adjust size as needed */
+  color: #333; /* Adjust color as needed */
+}
+
+.navbar-nav {
+  padding-left: 22px;
+  font-size: 20px;
+}
+
+.card-img {
+  box-shadow: 0 0 20px #000000;
+}
+
+/* Style for play/pause button */
+.play-pause-button {
+  width: 40px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
+  border: 2px solid transparent; /* Initial border (invisible) */
+  border-radius: 50%; /* Make it circular */
+  display: flex; /* Center the icon */
+  align-items: center; /* Center the icon vertically */
+  justify-content: center; /* Center the icon horizontally */
+  transition: background-color 0.3s, border 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.play-pause-button:hover {
+  background-color: #a20fe6; /* Change background color on hover */
+  border-color: #ffffff; /* Add border color on hover */
+  color: #fff; /* Change icon color on hover */
+  transform: scale(1.2); /* Increase size by 20% */
+}
+
+/* Style for album image */
+.album-image {
+  width: 100%; /* Ensure the image fits the card width */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s; /* Smooth transition for scaling effect */
+}
+
+/* Style for album image hover effect */
+.album-image:hover {
+  transform: scale(1.1); /* Increase size by 10% on hover */
+  cursor: pointer; /* Change cursor to hand */
+}
+
+/* Style for genre box */
+.genre-box {
+  width: 100%;
+  background-color: rgb(197, 173, 236);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+
+.plus{
+  width: 1px;
+}
+
+btn{
+    color: red;
+    background-color: red;
+}
+
+
+.container2{
+  display: flex;
+  flex-direction: row;
+}
+
+/* App.css */
+.list-group-item {
+  cursor: pointer;
+}
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+
+.list2{
+  overflow-y:scroll;
+   height: 400px;
+  position: fixed;
+  margin-left: 30%;
+  width: 50%;
+}

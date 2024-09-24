@@ -1,0 +1,18 @@
+.trending-page {
+    padding: 20px;
+  }
+  
+  .trending-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    cursor: pointer; /* Make images clickable if needed */
+  }
+  
+  .spinner-border {
+    display: block;
+    margin: auto;
+  }
+  
